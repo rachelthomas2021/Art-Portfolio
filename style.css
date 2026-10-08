@@ -133,6 +133,17 @@ select {
   letter-spacing: 0;
 }
 
+.logo-symbol svg {
+
+  width: 22px;
+
+  height: 22px;
+
+  display: block;
+
+  transform: rotate(90deg);
+}
+
 
 .nav {
 
