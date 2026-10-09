@@ -1535,11 +1535,30 @@ em {
 }
 
 
-.pattern-gallery > [role="img"]:not(.mockup-preview) {
+.pattern-gallery > [role="img"]:not(.mockup-preview),
+.pattern-image {
 
   position: relative;
 
   overflow: hidden;
+}
+
+
+.pattern-image {
+
+  margin: 0;
+}
+
+
+.pattern-image img {
+
+  display: block;
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
 }
 
 
@@ -1700,6 +1719,18 @@ em {
   display: block;
 
   min-width: 0;
+}
+
+
+.collection-preview-tile img {
+
+  display: block;
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
 }
 
 
@@ -2160,6 +2191,7 @@ em {
 
     height: 280px;
   }
+
 
   /* Keep the custom inquiry section centered on the page */
 
