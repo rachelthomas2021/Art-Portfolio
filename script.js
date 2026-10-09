@@ -45,9 +45,9 @@ if (collectionCarousel) {
 
   const collections = [
     {
-      title: "Dark & Moody",
-      pattern: "pattern-dark",
-      href: "collections/dark-and-moody.html"
+      title: "Food & Sweet Things",
+      pattern: "pattern-food",
+      href: "collections/food-and-sweet-things.html"
     },
     {
       title: "Pretty Little Things",

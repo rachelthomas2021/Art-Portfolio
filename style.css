@@ -703,36 +703,15 @@ em {
    TEMPORARY PATTERN ART
 ========================= */
 
-.pattern-dark {
+.pattern-food {
 
-  background-color: #3d3534;
+  background-color: #f6e3c9;
 
-  background-image:
+  background-image: url("images/pattern-06-tacos.jpg");
 
-    radial-gradient(
-      circle at 18% 22%,
-      #b69d83 0 3px,
-      transparent 4px
-    ),
+  background-position: center;
 
-    radial-gradient(
-      circle at 75% 62%,
-      #766a65 0 5px,
-      transparent 6px
-    ),
-
-    repeating-linear-gradient(
-      125deg,
-      transparent 0 42px,
-      rgba(255,255,255,.08)
-      43px 45px,
-      transparent 46px 88px
-    );
-
-  background-size:
-    150px 150px,
-    190px 190px,
-    auto;
+  background-size: cover;
 }
 
 
@@ -911,7 +890,7 @@ em {
    SLIGHT ART ROTATION
 ========================= */
 
-.collection-dark .collection-art {
+.collection-food .collection-art {
 
   transform: rotate(-1.2deg);
 }
